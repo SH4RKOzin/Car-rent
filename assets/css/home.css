@@ -65,28 +65,34 @@
       background-color: var(--fonte1);
       border-radius: 10px;
       transition: 0.5s ease;
+      min-height: 370px;
+      height: auto;
+    }
+    .card1 p{
+      color: white;
     }
     .card1:hover {
-        background-color: #fffcc6;
+        background-color: #6d3939;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
         transform: scale(1.05); 
       }
+      
     .card1 .icon1{
       font-size: 45px;
       margin-bottom: 25px;
-      color: var(--verde);
+      color: var(--fundo);
     }
     
-    .card1 h2{
+    .card1 h3{
       font-size: 22px;
-      color: #222;
+      color: var(--fundo);
       margin-bottom: 20px;
     }
     .card1 p{
       font-size: 16px;
       margin-bottom: 30px;
       line-height: 1.5;
-      color: var(--preto);
+      color: var(--fundo);
     }
    /* .card1 p:hover{
         font-size: 16px;
@@ -129,3 +135,162 @@
       right: 0;
       margin: auto;
     }
+
+    .aluguel{
+      background-color: var(--fonte1);
+      height: auto;
+    }
+    
+  ul {
+      list-style-type: none;
+      padding: 0;
+  }
+
+  li {
+      margin-bottom: 10px; 
+      font-size: 16px;
+      line-height: 1.6; 
+  }
+
+  i.bi-caret-right-fill {
+      color: var(--fundo);
+      margin-right: 8px;
+  }
+
+
+
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: white;
+}
+
+
+
+ul li {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.img-fluid {
+    object-fit: cover;
+    border-radius: 10px; 
+}
+
+
+
+
+/* rodape */
+.footer {
+  font-size: 14px;
+  background-color:var(--fonte1) ;
+  padding: 50px 0;
+  color: white;
+}
+
+.footer .footer-info .logo {
+  line-height: 0;
+  margin-bottom: 25px;
+}
+
+.footer .footer-info .logo img {
+  max-height: 40px;
+  margin-right: 6px;
+}
+
+.footer .footer-info .logo span {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #fff;
+  font-family: var(--preto);
+}
+
+.footer .footer-info p {
+  font-size: 14px;
+  font-family: var(--preto);
+}
+
+.footer .social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-right: 10px;
+  transition: 0.3s;
+}
+
+.footer .social-links a:hover {
+  color: var(--amarelo);
+  border-color: #fff;
+}
+
+.footer h4 {
+  font-size: 16px;
+  font-weight: bold;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+.footer .footer-links {
+  margin-bottom: 30px;
+}
+
+.footer .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer .footer-links ul i {
+  padding-right: 2px;
+  color: rgba(0, 131, 116, 0.8);
+  font-size: 12px;
+  line-height: 0;
+}
+
+.footer .footer-links ul li {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.footer .footer-links ul li:first-child {
+  padding-top: 0;
+}
+
+.footer .footer-links ul a {
+  color: rgba(255, 255, 255, 0.7);
+  transition: 0.3s;
+  display: inline-block;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.footer .footer-links ul a:hover {
+  color: #fff;
+}
+
+.footer .footer-contact p {
+  line-height: 26px;
+}
+
+.footer .copyright {
+  text-align: center;
+}
+
+.footer .credits {
+  padding-top: 4px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.footer .credits a {
+  color: #fff;
+}
