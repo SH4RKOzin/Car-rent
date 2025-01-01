@@ -1,0 +1,131 @@
+:root {
+    --fundo: #ffffff;
+    --fonte1:   #8C4949;
+    --fonte2: #1a0014;
+    --azul: #020659;
+  }
+  body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0 auto;
+      padding: 0;
+      box-sizing: border-box;
+      font-size: large;
+      
+  }
+  
+  .contacto1{
+    background-color: var(--fonte1);
+    height: 50px;
+  }
+  .contacto1 .email{
+    color: var(--fundo);
+    padding-top: 1%;
+    font-size:large ;
+  } 
+  a{
+    color: #ffffff;
+    text-decoration: none;
+
+  }
+  .redes{
+    margin-left: 98%;
+  }
+  .nav-link{
+    color: black;
+    text-transform: none;
+  }
+  #carouselExampleIndicators{
+    height: 20%;
+  }
+  .nos{
+    background-color: var(--fonte1);
+    height: auto;
+  }
+
+  .servicos{
+    background-color: var(--fundo) ;
+    height: auto;
+  }
+  
+.services-section{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px auto;
+    text-align: center;
+    }
+    .card1{
+      width: 80%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      margin: 0px 20px;
+      padding: 20px 10px ;
+      background-color: var(--fonte1);
+      border-radius: 10px;
+      transition: 0.5s ease;
+    }
+    .card1:hover {
+        background-color: #fffcc6;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+        transform: scale(1.05); 
+      }
+    .card1 .icon1{
+      font-size: 45px;
+      margin-bottom: 25px;
+      color: var(--verde);
+    }
+    
+    .card1 h2{
+      font-size: 22px;
+      color: #222;
+      margin-bottom: 20px;
+    }
+    .card1 p{
+      font-size: 16px;
+      margin-bottom: 30px;
+      line-height: 1.5;
+      color: var(--preto);
+    }
+   /* .card1 p:hover{
+        font-size: 16px;
+        margin-bottom: 30px;
+        line-height: 1.5;
+        color: #fff;
+      }*/
+    .button{
+    font-size: 17px;
+    text-decoration: none;
+    color: #fff;
+    background-color: var(--verde);
+    padding: 11px 15px;
+    border-radius: 5px;
+    margin-bottom: 6px;
+    }
+    .button:hover{
+      background-color: var(--verde);
+      transition: 0.5s ease;
+    }
+    
+
+
+    h2 {
+      color: #000;
+      font-weight: 300;
+      position: relative;
+      margin-bottom: 3rem;
+      text-align: center;
+    }
+    
+    h2::after {
+      content: "";
+      position: absolute;
+      width: 90px;
+      height: 3px;
+      background-color: var(--fonte2);
+      bottom: -10px;
+      left: 0;
+      right: 0;
+      margin: auto;
+    }
